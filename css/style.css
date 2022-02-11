@@ -107,6 +107,17 @@ body {
     width: 5%;
     background-color: var(--border_clr);
 }
+.preloader{
+    height: 100%;
+    width: 100%;
+    background-color: #ecf0f1;
+    position:fixed;
+    z-index: 9999999;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 /* Common Css Ends */
 /* Header Starts Here */
 header {
@@ -643,3 +654,17 @@ footer .row {
     color: var(--hover-clr);
 }
 /* Footer botttom ends here */
+#backToTop {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background-color:var(--hover-clr);
+    color: var(--sec_head_clr);
+    right: 20px;
+    bottom: 30px;
+    border: none;
+    font-size: 26px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: none;
+}
